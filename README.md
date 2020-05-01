@@ -4,6 +4,8 @@ Extensões recomendadas (Vscode):
 
 -Live Server (Ritwick Dey)
 
+---
+
 ## Começando com flex
 adicione o seguinte conteudo no inicio do arquivo .css
 
@@ -18,6 +20,8 @@ body,
 ```
 
 O codigo acima limpara toda formatação padrão dos elementos html, body e #app.
+
+---
 
 ## Flex-direction
 
