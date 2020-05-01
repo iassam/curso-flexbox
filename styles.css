@@ -1,0 +1,26 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+
+    /* define em qual eixo os elementos vao ser alinhados */
+    flex-direction: column;
+
+    /* responsavel por alinhar no eixo inverso ao declarado no flex-direction */
+    align-items: center;
+
+    /* responsavel por alinhar no eixo declarado no flex-direction */
+    justify-content: space-around;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+}
