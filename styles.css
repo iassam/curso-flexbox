@@ -8,19 +8,46 @@ body,
 #app{
     display: flex;
 
-    /* define em qual eixo os elementos vao ser alinhados */
-    flex-direction: column;
+    /* quebra de linha */
+    flex-wrap: wrap;
 
-    /* responsavel por alinhar no eixo inverso ao declarado no flex-direction */
+    justify-content: center;
     align-items: center;
 
-    /* responsavel por alinhar no eixo declarado no flex-direction */
-    justify-content: space-around;
+    /* faz o trabalho do align-items quando o flexdirection e row */
+    /* align-content: flex-start; */
 }
 
 .box{
-    width: 60px;
+    width: 400px;
     height: 60px;
-    background: #f00;
     margin: 5px;
+
+/* ------------- Redimensionamento ------------- */
+    /* flex: 1 0; */
+
+    /* grow | shrink */
+    /* flex: 1 0; */
+
+
+    /* estica */
+    /* flex-grow: 1; */
+
+    /* espremer */
+    /* flex-shrink: 0; */
+}
+
+.red{
+    background: red;
+    order: 2;
+}
+
+.green{
+    background: green;
+    order: 0;
+}
+
+.blue{
+    background: blue;
+    order: 1;
 }
