@@ -26,14 +26,11 @@ Responsavel por definir o eixo de alinhamento dos elementos.
 
 ```
 flex-direction: row;
-
 ```
 ## Usando a propriedade justify-content:
 E responsavel por alinhar no eixo declarado no flex-direction
-
 ```
 justify-content: center;
-
 ```
 
 O codigo acima linha o conteudo no centro do eixo definido definido na propriedade flex-direction.
